@@ -1,0 +1,1 @@
+CREATE (anisa:Orang{nama:'Anisa',alamat:'Bandung'}), (gugum:Orang{nama:'Gugum', pek:'Pelawak'}), (erna:Orang{nama:'Erna',warnaFavorit:'Merah'})
