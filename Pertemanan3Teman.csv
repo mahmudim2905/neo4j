@@ -1,1 +1,2 @@
 CREATE (anisa:Orang{nama:'Anisa',alamat:'Bandung'}), (gugum:Orang{nama:'Gugum', pek:'Pelawak'}), (erna:Orang{nama:'Erna',warnaFavorit:'Merah'})
+CREATE (A:Orang{nama:'Anisa'}),(E:Orang{nama:'Erna'}),(G:Orang{nama:'Gugum'}), (E)-[:Mengikuti{sejak:'Feb1999'}]->(A),(E)-[:Mengikuti{sejak:'Des2003'}]->(G),(G)-[:Mengikuti{sejak:'Mei2009'}]->(A), (B:Orang{nama:'Bambang',pek:'Penari'}), (B)-[:Mengikuti]->(E), (B)-[:Mengikuti]->(A)
